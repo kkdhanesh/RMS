@@ -1,0 +1,23 @@
+<div class="days_to_conf" style="border:solid;border-width:1px;border-color:#4682B4;padding:10px;">
+
+<!--
+<p tal:content="python:view.date()"></p>
+-->
+
+<p><b>Your roles are :</b></p>
+
+<span tal:define="roles_list python:view.date()">
+
+<li tal:repeat="r roles_list">
+<p tal:content="r"></p>
+</li>
+
+</span>
+
+
+<!--
+<p></p>
+<p>ROLE</p>
+-->
+</div>
+

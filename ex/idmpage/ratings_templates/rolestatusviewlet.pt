@@ -1,0 +1,13 @@
+<dl class="portalMessage info" i18n:domain="ex.idmpageview">
+
+    <dt i18n:translate="">
+        Ratings
+    </dt>
+    <dd>
+
+        <div> Sample Rolestatus </div> 
+        <p tal:content="context/id"></p>
+
+    </dd>
+
+</dl>
